@@ -79,6 +79,7 @@ document.addEventListener("DOMContentLoaded", function() {
     changeImages(); // Call changeImages() if the images were hidden before
     stopTimer();
     changeText();
+    music = true;
   }
 });
 
@@ -166,5 +167,4 @@ function changeText() {
     document.querySelector("h1").innerText = "you're back.";
   document.querySelector("h2").innerText = "no one is here...";
   document.querySelector("p").innerText = "@einnargali";
-  document.getElementById("timer").innerText = "why'd you leave them..?";
 }
