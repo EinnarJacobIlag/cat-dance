@@ -120,7 +120,7 @@ document.addEventListener("visibilitychange", function () {
     stopTimer();
     changeImages();
     changeText();
-    document.getElementById("timer").innerText = `two`;
+    document.getElementById("timer").innerText = `${days}d ${hours}h ${minutes}m ${seconds}s`;
 
     // Store the timer state in localStorage
     localStorage.setItem('isTimerRunning', 'false');
