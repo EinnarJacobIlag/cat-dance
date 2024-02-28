@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function() {
     stopTimer();
     changeText();
     music = true;
-    document.getElementById("timer").innerText = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    document.getElementById("timer").innerText = `one`;
   }
 });
 
@@ -120,7 +120,7 @@ document.addEventListener("visibilitychange", function () {
     stopTimer();
     changeImages();
     changeText();
-    document.getElementById("timer").innerText = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    document.getElementById("timer").innerText = `two`;
 
     // Store the timer state in localStorage
     localStorage.setItem('isTimerRunning', 'false');
