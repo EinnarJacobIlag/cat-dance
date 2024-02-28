@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function() {
     stopTimer();
     changeText();
     music = true;
-    document.getElementById("timer").innerText = `one`;
+    document.getElementById("timer").innerText = `${days}d ${hours}h ${minutes}m ${seconds}s`;
   }
 });
 
