@@ -80,7 +80,6 @@ document.addEventListener("DOMContentLoaded", function() {
     stopTimer();
     changeText();
     music = true;
-    document.getElementById("timer").innerText = `one`;
   }
 });
 
@@ -120,7 +119,6 @@ document.addEventListener("visibilitychange", function () {
     stopTimer();
     changeImages();
     changeText();
-    document.getElementById("timer").innerText = `two`;
 
     // Store the timer state in localStorage
     localStorage.setItem('isTimerRunning', 'false');
@@ -140,7 +138,6 @@ window.addEventListener('beforeunload', function(event) {
   changeImages();
   changeText();
   gunShot();
-  document.getElementById("timer").innerText = `three`;
 });
 
 function changeImages() {
